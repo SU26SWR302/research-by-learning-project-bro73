@@ -1,45 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rBNuyfdi)
-
-# 🎯 Hệ Thống AI Phỏng Vấn
+# 🤖 AI Interview 1:1
 
 ## 📌 Giới Thiệu Dự Án
-Hệ thống **AI Phỏng Vấn** là một nền tảng mô phỏng phỏng vấn thông minh sử dụng Trí tuệ nhân tạo (AI) nhằm hỗ trợ người dùng luyện tập kỹ năng phỏng vấn và cải thiện khả năng trả lời câu hỏi.
+**AI Interview 1:1** là hệ thống phỏng vấn thông minh sử dụng Trí tuệ nhân tạo (AI), cho phép ứng viên trò chuyện trực tiếp với AI như một buổi phỏng vấn thực tế.
 
-Hệ thống có khả năng:
-- Tự động tạo câu hỏi phỏng vấn
-- Phân tích câu trả lời của người dùng
-- Đánh giá mức độ phù hợp
-- Đưa ra phản hồi và gợi ý cải thiện
+Hệ thống đóng vai trò như một nhà tuyển dụng ảo, có khả năng:
+- Đặt câu hỏi theo thời gian thực
+- Tương tác liên tục với ứng viên
+- Phân tích câu trả lời
+- Đánh giá kỹ năng và thái độ
+- Đưa ra phản hồi và điểm số
+
+Mục tiêu của dự án là giúp người dùng:
+- Luyện tập phỏng vấn
+- Cải thiện kỹ năng giao tiếp
+- Chuẩn bị cho các buổi tuyển dụng thực tế
 
 ---
 
 # 🚀 Chức Năng Chính
 
-## 👤 Chức Năng Người Dùng
+## 👤 Chức Năng Ứng Viên
 - Đăng ký / đăng nhập
 - Chọn lĩnh vực phỏng vấn
-- Làm bài phỏng vấn AI
+- Trò chuyện trực tiếp với AI
 - Trả lời bằng văn bản hoặc giọng nói
-- Nhận điểm và phản hồi tự động
+- Nhận phản hồi theo thời gian thực
 - Xem lịch sử phỏng vấn
-- Theo dõi tiến độ cải thiện
+- Theo dõi điểm số và tiến độ cải thiện
 
 ---
 
 ## 🤖 Chức Năng AI
-- Sinh câu hỏi bằng AI
+- AI Interviewer trò chuyện 1:1
+- Sinh câu hỏi phỏng vấn tự động
 - Phân tích ngôn ngữ tự nhiên (NLP)
-- Chấm điểm câu trả lời
-- Phân loại độ khó câu hỏi
-- Gợi ý cải thiện câu trả lời
-- Đánh giá độ tự tin và cảm xúc
+- Đánh giá nội dung câu trả lời
+- Đánh giá mức độ tự tin
+- Phân tích cảm xúc ứng viên
+- Gợi ý cải thiện kỹ năng trả lời
+- Tùy chỉnh độ khó câu hỏi
 
 ---
 
 ## 🛠️ Chức Năng Quản Trị
 - Quản lý người dùng
-- Quản lý bộ câu hỏi
-- Quản lý lĩnh vực phỏng vấn
+- Quản lý câu hỏi phỏng vấn
+- Quản lý lĩnh vực tuyển dụng
+- Theo dõi lịch sử phỏng vấn
 - Xem báo cáo và thống kê
 
 ---
@@ -51,7 +58,7 @@ Frontend (ReactJS / JSP)
         ↓
 Backend API (Spring Boot / Servlet)
         ↓
-AI Processing Module (Python / NLP)
+AI Conversation Engine (Python / NLP / LLM)
         ↓
 Database (MySQL / SQL Server)
 ```
@@ -64,7 +71,7 @@ Database (MySQL / SQL Server)
 - HTML5
 - CSS3
 - JavaScript
-- ReactJS / JSP
+- ReactJS
 
 ## Backend
 - Java
@@ -75,9 +82,9 @@ Database (MySQL / SQL Server)
 ## AI & Machine Learning
 - Python
 - NLP
-- Scikit-learn
+- OpenAI API / LLM
 - TensorFlow / PyTorch
-- OpenAI API (Optional)
+- Speech Recognition
 
 ## Database
 - MySQL
@@ -94,12 +101,12 @@ Database (MySQL / SQL Server)
 # 📂 Cấu Trúc Thư Mục
 
 ```bash
-AI-Interview-System/
+AI-Interview-1v1/
 │
 ├── frontend/          # Giao diện người dùng
-├── backend/           # Source Backend Java
-├── ai-module/         # Xử lý AI & NLP
-├── database/          # File SQL Database
+├── backend/           # Backend Java
+├── ai-module/         # AI Conversation Engine
+├── database/          # File Database SQL
 ├── docs/              # Tài liệu & Research Paper
 ├── README.md
 └── docker-compose.yml
@@ -112,8 +119,8 @@ AI-Interview-System/
 ## 1️⃣ Clone Project
 
 ```bash
-git clone https://github.com/your-username/AI-Interview-System.git
-cd AI-Interview-System
+git clone https://github.com/your-username/AI-Interview-1v1.git
+cd AI-Interview-1v1
 ```
 
 ---
@@ -149,12 +156,17 @@ python app.py
 
 # 🧪 Quy Trình Hoạt Động
 
-1. Người dùng đăng nhập hệ thống
-2. Chọn chủ đề phỏng vấn
-3. AI tạo câu hỏi
-4. Người dùng trả lời
-5. AI phân tích câu trả lời
-6. Hệ thống trả về:
+1. Ứng viên đăng nhập hệ thống
+2. Chọn vị trí hoặc lĩnh vực phỏng vấn
+3. AI bắt đầu cuộc trò chuyện
+4. Ứng viên trả lời câu hỏi
+5. AI tiếp tục đặt câu hỏi dựa trên ngữ cảnh
+6. Hệ thống phân tích:
+   - Nội dung câu trả lời
+   - Kỹ năng giao tiếp
+   - Độ tự tin
+   - Thái độ phản hồi
+7. Trả về:
    - Điểm số
    - Nhận xét
    - Gợi ý cải thiện
@@ -162,21 +174,22 @@ python app.py
 ---
 
 # 📊 Hướng Phát Triển Trong Tương Lai
-- Nhận diện giọng nói
-- Phân tích video phỏng vấn
-- AI Avatar phỏng vấn
+- AI Avatar phỏng vấn bằng video
+- Phân tích biểu cảm khuôn mặt
+- Nhận diện giọng nói thời gian thực
 - Hỗ trợ đa ngôn ngữ
-- Matching CV với Job Description
-- Phân tích cảm xúc khi trả lời
+- Matching CV với JD
+- AI HR Assistant
 
 ---
 
 # 📖 Tài Liệu Tham Khảo
-Dự án tham khảo các nghiên cứu liên quan đến:
+Dự án tham khảo các nghiên cứu về:
 - NLP (Natural Language Processing)
+- Conversational AI
+- Large Language Model (LLM)
 - AI Recruitment System
 - Machine Learning
-- Intelligent Tutoring System
 
 Nguồn tham khảo:
 - IEEE Xplore
@@ -184,31 +197,3 @@ Nguồn tham khảo:
 - Google Scholar
 
 ---
-
-# 👥 Thành Viên Nhóm
-
-| Thành viên | Vai trò |
-|------------|----------|
-| Member 1 | Frontend Developer |
-| Member 2 | Backend Developer |
-| Member 3 | AI Engineer |
-| Member 4 | Database Designer |
-| Member 5 | Project Manager |
-
----
-
-# 📅 Quản Lý Dự Án
-- Agile/Scrum
-- Jira Management
-- GitHub Version Control
-
----
-
-# 📜 Giấy Phép
-Dự án được phát triển cho mục đích học tập và nghiên cứu.
-
----
-
-# 📬 Liên Hệ
-- Email: your-email@example.com
-- GitHub: your-github-profile
