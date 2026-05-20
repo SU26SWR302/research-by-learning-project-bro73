@@ -1,5 +1,8 @@
 # 🤖 AI Interview 1:1
 
+## Link Jira
+https://tuphucnguyen.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiM2Q1ZWU3ZmIyYjM0NDBkOTljMjkwNjZmYmZhNzVhYTgiLCJwIjoiaiJ9
+
 ## 📌 Giới Thiệu Dự Án
 **AI Interview 1:1** là hệ thống phỏng vấn thông minh sử dụng Trí tuệ nhân tạo (AI), cho phép ứng viên trò chuyện trực tiếp với AI như một buổi phỏng vấn thực tế.
 
