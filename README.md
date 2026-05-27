@@ -1,74 +1,86 @@
-# 🤖 AI Interview 1:1
+# 🏓 Pickleball Court Booking Management System
 
 ## Link Jira
 https://tuphucnguyen.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiM2Q1ZWU3ZmIyYjM0NDBkOTljMjkwNjZmYmZhNzVhYTgiLCJwIjoiaiJ9
 
-## 📌 Giới Thiệu Dự Án
-**AI Interview 1:1** là hệ thống phỏng vấn thông minh sử dụng Trí tuệ nhân tạo (AI), cho phép ứng viên trò chuyện trực tiếp với AI như một buổi phỏng vấn thực tế.
+---
 
-Hệ thống đóng vai trò như một nhà tuyển dụng ảo, có khả năng:
-- Đặt câu hỏi theo thời gian thực
-- Tương tác liên tục với ứng viên
-- Phân tích câu trả lời
-- Đánh giá kỹ năng và thái độ
-- Đưa ra phản hồi và điểm số
+# 📌 Project Introduction
 
-Mục tiêu của dự án là giúp người dùng:
-- Luyện tập phỏng vấn
-- Cải thiện kỹ năng giao tiếp
-- Chuẩn bị cho các buổi tuyển dụng thực tế
+**Pickleball Court Booking Management System** is a web-based platform designed to help customers search, reserve, and manage pickleball court bookings online conveniently and efficiently.
+
+The system supports:
+- Online court booking
+- Real-time court availability checking
+- Booking and schedule management
+- Online payment processing
+- Customer management
+- Revenue and reporting management
+
+The project aims to:
+- Reduce manual booking operations
+- Prevent double bookings
+- Improve customer experience
+- Optimize court management processes
+- Support digital transformation for sports facilities
 
 ---
 
-# 🚀 Chức Năng Chính
+# 🚀 Main Features
 
-## 👤 Chức Năng Ứng Viên
-- Đăng ký / đăng nhập
-- Chọn lĩnh vực phỏng vấn
-- Trò chuyện trực tiếp với AI
-- Trả lời bằng văn bản hoặc giọng nói
-- Nhận phản hồi theo thời gian thực
-- Xem lịch sử phỏng vấn
-- Theo dõi điểm số và tiến độ cải thiện
-
----
-
-## 🤖 Chức Năng AI
-- AI Interviewer trò chuyện 1:1
-- Sinh câu hỏi phỏng vấn tự động
-- Phân tích ngôn ngữ tự nhiên (NLP)
-- Đánh giá nội dung câu trả lời
-- Đánh giá mức độ tự tin
-- Phân tích cảm xúc ứng viên
-- Gợi ý cải thiện kỹ năng trả lời
-- Tùy chỉnh độ khó câu hỏi
+## 👤 Customer Features
+- Register / Login
+- Login with Google or Facebook
+- Search available courts
+- View court schedules
+- Book pickleball courts online
+- Cancel bookings
+- View booking history
+- Manage delivery/contact addresses
+- Online payment
+- Receive notifications and reminders
+- Submit feedback and ratings
 
 ---
 
-## 🛠️ Chức Năng Quản Trị
-- Quản lý người dùng
-- Quản lý câu hỏi phỏng vấn
-- Quản lý lĩnh vực tuyển dụng
-- Theo dõi lịch sử phỏng vấn
-- Xem báo cáo và thống kê
+## 🏓 Court Management Features
+- Manage court information
+- Manage court schedules
+- Real-time availability checking
+- Maintenance scheduling
+- Peak-hour pricing management
+- Promotion and discount management
+- Booking conflict prevention
 
 ---
 
-# 🏗️ Kiến Trúc Hệ Thống
+## 🛠️ Staff & Admin Features
+- Manage customers
+- Manage bookings
+- Confirm reservations
+- Monitor payments
+- Manage court maintenance
+- Publish news and announcements
+- Generate reports and statistics
+- Manage staff accounts and permissions
+
+---
+
+# 🏗️ System Architecture
 
 ```text
 Frontend (ReactJS / JSP)
         ↓
 Backend API (Spring Boot / Servlet)
         ↓
-AI Conversation Engine (Python / NLP / LLM)
+Business Logic & Booking Engine
         ↓
 Database (MySQL / SQL Server)
 ```
 
 ---
 
-# 🧰 Công Nghệ Sử Dụng
+# 🧰 Technologies Used
 
 ## Frontend
 - HTML5
@@ -82,18 +94,11 @@ Database (MySQL / SQL Server)
 - Servlet & JSP
 - RESTful API
 
-## AI & Machine Learning
-- Python
-- NLP
-- OpenAI API / LLM
-- TensorFlow / PyTorch
-- Speech Recognition
-
 ## Database
 - MySQL
 - SQL Server
 
-## Công Cụ Hỗ Trợ
+## Supporting Tools
 - Git & GitHub
 - Docker
 - Postman
@@ -101,34 +106,33 @@ Database (MySQL / SQL Server)
 
 ---
 
-# 📂 Cấu Trúc Thư Mục
+# 📂 Project Structure
 
 ```bash
-AI-Interview-1v1/
+Pickleball-Court-Booking-System/
 │
-├── frontend/          # Giao diện người dùng
+├── frontend/          # User Interface
 ├── backend/           # Backend Java
-├── ai-module/         # AI Conversation Engine
-├── database/          # File Database SQL
-├── docs/              # Tài liệu & Research Paper
+├── database/          # SQL Database Scripts
+├── docs/              # Documents & Research Papers
 ├── README.md
 └── docker-compose.yml
 ```
 
 ---
 
-# ⚙️ Hướng Dẫn Cài Đặt
+# ⚙️ Installation Guide
 
 ## 1️⃣ Clone Project
 
 ```bash
-git clone https://github.com/your-username/AI-Interview-1v1.git
-cd AI-Interview-1v1
+git clone https://github.com/your-username/Pickleball-Court-Booking-System.git
+cd Pickleball-Court-Booking-System
 ```
 
 ---
 
-## 2️⃣ Chạy Backend
+## 2️⃣ Run Backend
 
 ```bash
 cd backend
@@ -137,7 +141,7 @@ mvn spring-boot:run
 
 ---
 
-## 3️⃣ Chạy Frontend
+## 3️⃣ Run Frontend
 
 ```bash
 cd frontend
@@ -147,56 +151,46 @@ npm start
 
 ---
 
-## 4️⃣ Chạy AI Module
+# 🧪 System Workflow
 
-```bash
-cd ai-module
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-# 🧪 Quy Trình Hoạt Động
-
-1. Ứng viên đăng nhập hệ thống
-2. Chọn vị trí hoặc lĩnh vực phỏng vấn
-3. AI bắt đầu cuộc trò chuyện
-4. Ứng viên trả lời câu hỏi
-5. AI tiếp tục đặt câu hỏi dựa trên ngữ cảnh
-6. Hệ thống phân tích:
-   - Nội dung câu trả lời
-   - Kỹ năng giao tiếp
-   - Độ tự tin
-   - Thái độ phản hồi
-7. Trả về:
-   - Điểm số
-   - Nhận xét
-   - Gợi ý cải thiện
+1. Customer logs into the system
+2. Customer searches for available courts
+3. Customer selects booking date and time
+4. System checks court availability
+5. Customer confirms booking
+6. Payment is processed online
+7. Staff confirms reservation
+8. Customer receives booking notification
+9. Customer checks in and uses the court
+10. System updates booking history and reports
 
 ---
 
-# 📊 Hướng Phát Triển Trong Tương Lai
-- AI Avatar phỏng vấn bằng video
-- Phân tích biểu cảm khuôn mặt
-- Nhận diện giọng nói thời gian thực
-- Hỗ trợ đa ngôn ngữ
-- Matching CV với JD
-- AI HR Assistant
+# 📊 Future Development
+
+- Mobile application support
+- AI-based court recommendation
+- Smart pricing system
+- QR Code check-in
+- Tournament management
+- Membership system
+- Loyalty reward program
+- Real-time analytics dashboard
 
 ---
 
-# 📖 Tài Liệu Tham Khảo
-Dự án tham khảo các nghiên cứu về:
-- NLP (Natural Language Processing)
-- Conversational AI
-- Large Language Model (LLM)
-- AI Recruitment System
-- Machine Learning
+# 📖 References
 
-Nguồn tham khảo:
-- IEEE Xplore
+The project references studies related to:
+- Sports Facility Management
+- Online Booking Systems
+- Reservation Management
+- Customer Management Systems
+- Web-based Information Systems
+
+Reference Sources:
 - Springer
+- IEEE Xplore
 - Google Scholar
 
 ---
