@@ -4,6 +4,8 @@
 https://tuphucnguyen.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiM2Q1ZWU3ZmIyYjM0NDBkOTljMjkwNjZmYmZhNzVhYTgiLCJwIjoiaiJ9
 
 ---
+## Link Overleaf
+https://www.overleaf.com/read/gkphfqfkqdnt#c8ac22
 
 # 📌 Project Introduction
 
