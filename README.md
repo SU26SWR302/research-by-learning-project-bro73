@@ -9,7 +9,7 @@ https://www.overleaf.com/read/gkphfqfkqdnt#c8ac22
 
 # 📌 Project Introduction
 
-**Pickleball Court Booking Management System** is a web-based platform designed to help customers search, reserve, and manage pickleball court bookings online conveniently and efficiently.
+**Sport Court Booking Management System** is a web-based platform designed to help customers search, reserve, and manage pickleball court bookings online conveniently and efficiently.
 
 The system supports:
 - Online court booking
